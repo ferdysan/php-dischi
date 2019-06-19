@@ -15,9 +15,14 @@ body{
   justify-content: space-between;
   flex-wrap: wrap;
   width: 800px;
+
   .copertina img{
     width: 200px;
     margin: 20px;
-
+  }
+  .card_album{
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 20px;
   }
 }

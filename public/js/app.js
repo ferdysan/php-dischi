@@ -93,7 +93,18 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
+$(document).ready(function () {
+  $.ajax({
+    'url': '',
+    'method': 'GET',
+    'success': function success(data) {
+      console.log(data);
+    },
+    'error': function error() {
+      alert('si è verificato un errore');
+    }
+  });
+});
 
 /***/ }),
 

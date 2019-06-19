@@ -34,3 +34,9 @@ body {
   margin: 20px;
 }
 
+.container .card_album {
+  border: 1px solid white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+

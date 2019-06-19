@@ -16,7 +16,8 @@ include 'data.php';
 
     <div class="container">
       <?php
-      foreach ($dischi as $key => $disco) {
+      // posso usare un foreach solo 'value' perchè la struttura del mio array me lo permette in quanto le sue chiavi sono gli indici numerici standard
+      foreach ($dischi as $disco) {
            ?>
            <div class="card_album">
              <div class="copertina">

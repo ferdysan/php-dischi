@@ -8,11 +8,33 @@
   </head>
   <body>
 
-    
 
 
+
+
+
+
+
+
+<!-- integro handlebars -->
+
+<script id="template_card_film" type="text/x-handlebars-template">
+  <div class="container">
+         <div class="card_album">
+           <div class="copertina">
+             <img src=" {{copertina}} " alt="">
+           </div>
+           <div class="info_disco">
+            <p>Titolo :{{titolo}}  </p>
+            <p>Artista : {{artista}}  </p>
+            <p>Anno di uscita : {{anno}} </p>
+           </div>
+         </div>
+  </div>
+</script>
 
 <script src="public/js/app.js"></script>
+
 
   </body>
 </html>

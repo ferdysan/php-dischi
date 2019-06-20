@@ -1,5 +1,8 @@
-$(document).ready(function(){
+var $ = require('jquery');
+// var Handlebars = require('handlebars');
 
+
+$(document).ready(function(){
   // preparo le variabili per handlebars
 
   // vado a prendermi il mio template e a salvarlo in una variabile leggendone l'html
@@ -24,12 +27,8 @@ $(document).ready(function(){
         }
 
         var html_finale = lista_function(variabili_card_film);
-
-
+        $('.container').append(html_finale);
       }
-
-
-
 
     },
     'error':function(){

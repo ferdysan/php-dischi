@@ -5,20 +5,19 @@
     <title></title>
     <link rel="stylesheet" href="public/css/app.css">
     <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
-    <script src"https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js" charset="utf-8"></script>
   </head>
   <body>
 
     <div class="container">
+      <div class="select_artisti">
+        <select class="artisti_dischi" name="">
+
+        </select>
+      </div>
+
 
     </div>
-
-
-
-
-
-
-
 
 
 <!-- integro handlebars -->
